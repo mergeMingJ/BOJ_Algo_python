@@ -1,11 +1,13 @@
 import sys
 sys.stdin = open('input/1436.txt', 'r')
 
-
-# 다시 생각
-N = int(input())
-
-lst = [666]
-
-for n in range(1, N):
-    new = str(666)
+n = int(input())
+cnt = 0
+six_n = 666
+while True:
+    if '666' in str(six_n):
+        cnt += 1
+    if cnt == n:
+        print(six_n)
+        break
+    six_n += 1
