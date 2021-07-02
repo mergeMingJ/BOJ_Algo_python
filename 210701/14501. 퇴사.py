@@ -10,10 +10,10 @@ result = []
 for i in range(1, N+1):
     work = i
     hap = 0
-
+    print(arr)
     while True:
         days, price = arr[work][0]-1, arr[work][1]
-        if work+days > N:
+        if work+days > N+1:
             result.append(hap)
             break
         elif work+days == N:
@@ -25,5 +25,5 @@ for i in range(1, N+1):
             work = work+days+1
     print(result)
 print(max(result))
-# 푸는중... 
+# 푸는중...
 
