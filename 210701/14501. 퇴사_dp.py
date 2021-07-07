@@ -8,7 +8,7 @@ arr.insert(0, [0,0])
 total = [0] * (N+1)
 
 # N만큼 돌면서 검사
-for i in range(1,N+1):
+for i in range(1, N+1):
     # 만약 현재 날짜와 끝나는 날짜를 했을때 기간내에 끝낼 수 있다면
     if i + arr[i][0] <= N+1:
         # 현재 날짜까 벌수 있는 돈 기록
