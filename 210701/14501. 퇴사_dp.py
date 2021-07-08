@@ -20,7 +20,6 @@ for i in range(1, N+1):
                 # 기존의 수행값과 새로운 값중 가장 큰 값을 기록
                 total[i] = max(total[i], total[j] + arr[i][1])
                 # 총 토탈리스트 중에서 가장 큰 돈을 벌수 있는 값 출력
-
 print(max(total))
 
 
