@@ -9,8 +9,7 @@
 n = list(str(input()))
 
 ans = ''
-
-
+print(n)
 for i in range(len(n)):
     # 음수일 경우
     if n[0] == '-':
@@ -32,3 +31,4 @@ for i in range(len(n)):
 for char in n:
     ans+=char
 print(int(ans))
+

@@ -13,6 +13,7 @@ for i in range(n-1):
     if num == arr[i]:
         continue
     if num in new_arr:
+        # remove 쓰면 keyError 떠서 discard 사용
         new_arr.discard(num)
         new_arr.discard(arr[i])
         cnt+=1
