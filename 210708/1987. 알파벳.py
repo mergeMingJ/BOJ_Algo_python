@@ -1,35 +1,26 @@
 import sys
 sys.stdin = open('input/1987.txt', 'r')
 
-dx = [0, 0, -1, 1]
-dy = [1, -1, 0, 0]
+# DFS() => pypy 통과 python3 시간초과... sad
 
-def DFS(x, y, cnt):
-    global count
+def solve(x, y, l):
+    global ans
+    ans = max(ans, l)
+    if ans == 26:
+        return
+    for d in range(4):
+        i, j = x + dx[d], y + dy[d]
+        if 0<=i<r and 0<=j<c and alpha[table[i][j]] == 0:
+            alpha[table[i][j]] = 1
+            solve(i, j, l+1)
+            alpha[table[i][j]] = 0
 
-    count = max(count, cnt)
+r, c = map(int, input().split())
+table = [list(map(lambda x: ord(x)-65, input().rstrip())) for _ in range(r)]
+dx, dy = (-1, 1, 0, 0), (0, 0, -1, 1)
+alpha = [0] * 26
+ans = 0
+alpha[table[0][0]] = 1
+solve(0, 0, 1)
+print(ans)
 
-    for k in range(4):
-        tx, ty = x+dx[k], y+dy[k]
-
-        if tx < 0 or tx >= R or ty < 0 or ty >= C or arr[tx][ty] in check:
-            continue
-        else:
-            check.append(arr[tx][ty])
-            DFS(tx, ty, cnt+1)
-            check.remove(arr[tx][ty])
-
-
-
-
-R, C = map(int,input().split())
-arr = [[str(a) for a in ('').join(input().split())] for _ in range(R)]
-total = []
-global count
-check = []
-count = 1
-check.append(arr[0][0])
-DFS(0, 0, count)
-print(count)
-# 시간초과!!
-# 다시 풀어보자 내일!

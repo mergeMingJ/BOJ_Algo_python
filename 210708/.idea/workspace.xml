@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec1e59e-ac1e-4df2-a326-6055a65e0bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1987. 알파벳.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/1987.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9375. 패션왕 신해빈.py" beforeDir="false" afterPath="$PROJECT_DIR$/9375. 패션왕 신해빈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/9375.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/9375.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1987. 알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/1987. 알파벳.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,35 +15,36 @@
     <session id="1662649014">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="4204" />
+          <entry key="py" value="5300" />
           <entry key="txt" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="153" />
-          <entry key="Python" value="4204" />
+          <entry key="Python" value="5300" />
         </counts>
       </usages-collector>
     </session>
@@ -93,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input/1987.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -102,11 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1987. 알파벳.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <marker date="1626092382319" expanded="true" signature="128:437" ph="..." />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -134,11 +128,12 @@
         <option value="$PROJECT_DIR$/input/9375.txt" />
         <option value="$PROJECT_DIR$/9375. 패션왕 신해빈.py" />
         <option value="$PROJECT_DIR$/input/1987.txt" />
+        <option value="$PROJECT_DIR$/1987. 알파벳_BFS.py" />
         <option value="$PROJECT_DIR$/1987. 알파벳.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -150,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -245,6 +240,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1987. 알파벳_BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="210708" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1987. 알파벳_BFS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="9375. 패션왕 신해빈" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="210708" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,10 +287,12 @@
       <item itemvalue="Python.10866. 덱" />
       <item itemvalue="Python.9375. 패션왕 신해빈" />
       <item itemvalue="Python.1987. 알파벳" />
+      <item itemvalue="Python.1987. 알파벳_BFS" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.1987. 알파벳" />
+        <item itemvalue="Python.1987. 알파벳_BFS" />
         <item itemvalue="Python.9375. 패션왕 신해빈" />
         <item itemvalue="Python.10866. 덱" />
         <item itemvalue="Python.12847. 꿀 아르바이트" />
@@ -303,7 +321,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,32 +351,23 @@
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1987. 알파벳.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1987. 알파벳.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="check" language="Python" />
-        <watch expression="visit" language="Python" />
-        <watch expression="cnt" language="Python" />
-        <watch expression="arr[x][y]" language="Python" />
         <watch expression="arr" language="Python" />
-        <watch expression="arr[tx][ty]" language="Python" />
-        <watch expression="count" language="Python" />
+        <watch expression="result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>count</expression-string>
         <language-id>Python</language-id>
@@ -411,6 +420,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1987. 알파벳_BFS.py" />
     <entry file="file://$PROJECT_DIR$/12847. 꿀 아르바이트.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -441,18 +451,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input/1987.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="108">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1987. 알파벳.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <marker date="1626092382319" expanded="true" signature="128:437" ph="..." />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
