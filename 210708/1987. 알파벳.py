@@ -17,6 +17,7 @@ def solve(x, y, l):
 
 r, c = map(int, input().split())
 table = [list(map(lambda x: ord(x)-65, input().rstrip())) for _ in range(r)]
+print(table)
 dx, dy = (-1, 1, 0, 0), (0, 0, -1, 1)
 alpha = [0] * 26
 ans = 0
