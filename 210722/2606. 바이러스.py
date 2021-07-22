@@ -24,9 +24,11 @@ cnt = -1
 for k in range(N+1):
     relation.append([])
 
+
 for item in connect:
     relation[item[0]].append(item[1])
     relation[item[1]].append(item[0])
+
 
 check_relation(1)
 print(cnt)
