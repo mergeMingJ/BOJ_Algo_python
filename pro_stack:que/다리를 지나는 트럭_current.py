@@ -1,23 +1,22 @@
-# 이해 안가
-
+# 시간초과 한개 나옴
 from collections import deque
+
 def solution(bridge_length, weight, truck_weights):
+    answer = 0
     truck_weights = deque(truck_weights)
-    bridge = deque([0 for _ in range(bridge_length)])
-    time = 0
-    truck = 0
+    bridge = deque([0] * bridge_length)
     while len(bridge) != 0:
-        out = bridge.popleft()
-        truck -= out
-        time += 1
+        bridge.popleft()
+        answer += 1
+
         if truck_weights:
-            if truck + truck_weights[0] <= weight:
-                left = truck_weights.popleft()
-                truck += left
-                bridge.append(left)
+            if sum(bridge) + truck_weights[0] <= weight:
+                truck = truck_weights.popleft()
+                bridge.append(truck)
             else:
                 bridge.append(0)
-    return time
+
+    return answer
 
 print(8, solution(2, 10, [7, 4, 5, 6]))
 print(10, solution(4, 2, [1, 1, 1, 1]))
